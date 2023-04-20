@@ -100,10 +100,17 @@
     }
 }
 @media (max-width: 550px){
+    .header-container{
+        height: 200px;
+    }
     .h-search{
-        min-width: 100px;
+        min-width: 90%;
     }
     .h-options{
         min-width: 100px;
+    }
+    .h-down{
+        height: 170px;
+        align-items: flex-end;
     }
 }
